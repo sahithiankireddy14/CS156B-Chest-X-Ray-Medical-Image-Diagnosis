@@ -1,0 +1,101 @@
+
+Pathology: Fracture
+View: frontal
+Training Cap: 200000
+Epochs: 20
+Output File: predictions/121_fracture_frontal.csv
+Timestamp = 23:54:31 
+
+Reading Training Images  -  23:54:34
+Finished Reading  -  23:54:36
+Running on 8603 images
+Converted Images  -  23:54:37 
+
+Epoch 1/20
+40/40 - 62s - loss: 1.6133 - accuracy: 0.4526 - val_loss: 0.9815 - val_accuracy: 0.5751
+
+Epoch 00001: val_loss improved from inf to 0.98149, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 2/20
+40/40 - 56s - loss: 1.1340 - accuracy: 0.5681 - val_loss: 0.7843 - val_accuracy: 0.6817
+
+Epoch 00002: val_loss improved from 0.98149 to 0.78426, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 3/20
+40/40 - 60s - loss: 0.9754 - accuracy: 0.6163 - val_loss: 0.8323 - val_accuracy: 0.6799
+
+Epoch 00003: val_loss did not improve from 0.78426
+Epoch 4/20
+40/40 - 61s - loss: 0.9129 - accuracy: 0.6414 - val_loss: 0.7953 - val_accuracy: 0.6720
+
+Epoch 00004: val_loss did not improve from 0.78426
+Epoch 5/20
+40/40 - 60s - loss: 0.8562 - accuracy: 0.6547 - val_loss: 0.7672 - val_accuracy: 0.6727
+
+Epoch 00005: val_loss improved from 0.78426 to 0.76723, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 6/20
+40/40 - 61s - loss: 0.8294 - accuracy: 0.6569 - val_loss: 0.7359 - val_accuracy: 0.6942
+
+Epoch 00006: val_loss improved from 0.76723 to 0.73587, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 7/20
+40/40 - 63s - loss: 0.8159 - accuracy: 0.6632 - val_loss: 0.7383 - val_accuracy: 0.6832
+
+Epoch 00007: val_loss did not improve from 0.73587
+Epoch 8/20
+40/40 - 63s - loss: 0.7924 - accuracy: 0.6789 - val_loss: 0.7358 - val_accuracy: 0.6908
+
+Epoch 00008: val_loss improved from 0.73587 to 0.73579, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 9/20
+40/40 - 61s - loss: 0.7895 - accuracy: 0.6763 - val_loss: 0.7370 - val_accuracy: 0.6838
+
+Epoch 00009: val_loss did not improve from 0.73579
+Epoch 10/20
+40/40 - 62s - loss: 0.7703 - accuracy: 0.6869 - val_loss: 0.7166 - val_accuracy: 0.6952
+
+Epoch 00010: val_loss improved from 0.73579 to 0.71659, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 11/20
+40/40 - 62s - loss: 0.7677 - accuracy: 0.6831 - val_loss: 0.7064 - val_accuracy: 0.6979
+
+Epoch 00011: val_loss improved from 0.71659 to 0.70638, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 12/20
+40/40 - 62s - loss: 0.7612 - accuracy: 0.6867 - val_loss: 0.7032 - val_accuracy: 0.7014
+
+Epoch 00012: val_loss improved from 0.70638 to 0.70322, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 13/20
+40/40 - 63s - loss: 0.7525 - accuracy: 0.6841 - val_loss: 0.7033 - val_accuracy: 0.7006
+
+Epoch 00013: val_loss did not improve from 0.70322
+Epoch 14/20
+40/40 - 63s - loss: 0.7631 - accuracy: 0.6839 - val_loss: 0.7015 - val_accuracy: 0.7034
+
+Epoch 00014: val_loss improved from 0.70322 to 0.70152, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 15/20
+40/40 - 64s - loss: 0.7589 - accuracy: 0.6861 - val_loss: 0.7088 - val_accuracy: 0.6923
+
+Epoch 00015: val_loss did not improve from 0.70152
+Epoch 16/20
+40/40 - 62s - loss: 0.7524 - accuracy: 0.6940 - val_loss: 0.7080 - val_accuracy: 0.6941
+
+Epoch 00016: val_loss did not improve from 0.70152
+Epoch 17/20
+40/40 - 62s - loss: 0.7475 - accuracy: 0.6940 - val_loss: 0.6946 - val_accuracy: 0.6999
+
+Epoch 00017: val_loss improved from 0.70152 to 0.69465, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 18/20
+40/40 - 63s - loss: 0.7548 - accuracy: 0.6865 - val_loss: 0.6898 - val_accuracy: 0.7035
+
+Epoch 00018: val_loss improved from 0.69465 to 0.68976, saving model to checkpoints/121_fracturefrontal.h5
+Epoch 19/20
+40/40 - 63s - loss: 0.7452 - accuracy: 0.6898 - val_loss: 0.6970 - val_accuracy: 0.6972
+
+Epoch 00019: val_loss did not improve from 0.68976
+Epoch 20/20
+40/40 - 62s - loss: 0.7413 - accuracy: 0.6891 - val_loss: 0.6870 - val_accuracy: 0.7049
+
+Epoch 00020: val_loss improved from 0.68976 to 0.68699, saving model to checkpoints/121_fracturefrontal.h5
+Total-test-data; 3442 	accurately-predicted-data: 2360 	 wrongly-predicted-data:  1082
+Accuracy: 68.565 %
+Reading Test Images  -  00:15:53
+Finished Reading  -  00:15:59
+Converted Images  -  00:16:02 
+
+Finished Predictions  -  00:17:31
+Done  -  00:17:31
